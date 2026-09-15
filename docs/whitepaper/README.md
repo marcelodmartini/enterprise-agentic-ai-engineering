@@ -1305,7 +1305,7 @@ The architectural theme remains constant:
 
 The source-code portfolio is available here:
 
-### [Enterprise Agentic AI Engineering →](../)
+### [Enterprise Agentic AI Engineering →](../enterprise-agentic-ai-architecture-playbook.pdf)
 
 Repository:
 
