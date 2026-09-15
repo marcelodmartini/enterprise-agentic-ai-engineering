@@ -1305,12 +1305,13 @@ The architectural theme remains constant:
 
 The source-code portfolio is available here:
 
-### [Enterprise Agentic AI Engineering →](../../)
+### [Enterprise Agentic AI Engineering →](../)
 
 Repository:
 
 ```text
 github.com/marcelodmartini/enterprise-agentic-ai-engineering
+
 ```
 
 ---
