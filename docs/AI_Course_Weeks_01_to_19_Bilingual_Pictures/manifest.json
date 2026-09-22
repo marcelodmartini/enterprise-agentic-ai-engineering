@@ -1,0 +1,23 @@
+{
+  "package_name": "AI_Course_Weeks_01_to_19_Bilingual_GitHub_Ready",
+  "languages": {
+    "Spanish": {
+      "images": 19,
+      "texts": 19,
+      "docs": [
+        "AI_Course_19_Weeks_Spanish_Posters.docx",
+        "AI_Course_19_Weeks_Spanish_Text_Manual.docx"
+      ],
+      "gallery": "Spanish/gallery/index.html"
+    },
+    "English": {
+      "images": 19,
+      "texts": 19,
+      "docs": [
+        "AI_Course_19_Weeks_English_Posters.docx",
+        "AI_Course_19_Weeks_English_Text_Manual.docx"
+      ],
+      "gallery": "English/gallery/index.html"
+    }
+  }
+}
