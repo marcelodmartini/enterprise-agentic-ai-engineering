@@ -1,25 +1,32 @@
-AI COURSE WEEKS 01–33 — NAVIGATION
+AI DEEP COURSE — LOCAL IMAGE REFERENCES
+=======================================
 
-Author: Marcelo Martini
-LinkedIn: https://www.linkedin.com/in/marcelomartini1981/
+Entrada principal:
+  index.html
 
-START HERE
-1. Download the complete Google Drive folder.
-2. Open index.html in your browser.
-3. Choose Spanish or English.
-4. Open the gallery and navigate Weeks 01–33.
+Galerías:
+  Spanish/gallery/index.html
+  English/gallery/index.html
 
-The gallery pages are linked to the current Google Drive week folders. Newly added images can be viewed through the embedded Drive folder for each week.
+IMPORTANTE
+----------
+Las galerías ya NO cargan imágenes desde Google Drive.
+Cada imagen usa rutas relativas a las carpetas locales:
 
-IMPORTANT
-Google Drive stores the files but is not a static web hosting service. For website-style navigation, publish the folder on GitHub Pages, Netlify, Cloudflare Pages, S3/CloudFront, Azure Static Web Apps, or another static hosting service.
+  Spanish/gallery/index.html -> ../week1/archivo.png
+  English/gallery/index.html -> ../week1/archivo.png
 
-Main files:
-- index.html
-- Spanish/index.html
-- Spanish/gallery/index.html
-- English/index.html
-- English/gallery/index.html
-- manifest.json
-- 404.html
-- .nojekyll
+Esto permite:
+1. Descargar la carpeta completa desde Google Drive como ZIP.
+2. Descomprimirla manteniendo la estructura.
+3. Abrir index.html localmente.
+4. Publicar la misma estructura en GitHub Pages.
+
+No renombrar:
+- Spanish / English
+- gallery
+- week1 ... week33
+- archivos de imagen
+
+Nota detectada al validar Drive:
+- English/week17 está actualmente vacío, por lo que la galería muestra esa semana sin imágenes.
